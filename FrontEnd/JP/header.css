@@ -543,3 +543,135 @@ ul {
       margin-left: 2.9vh;
     }
   }
+
+
+   /* Roger */
+
+  .product {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+  }
+  .border-bottom{
+    width: 70%;
+    height: 1px;
+    background-color: blue;
+    margin-left: 70px;
+  }
+  .product-category {
+    padding: 0 10vw;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    flex: 0 0 auto;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+  }
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: #ff7d7d;
+    color: #fff;
+  }
+  
+  .product-info {
+    margin-top: 20px;
+    width: 40%;
+    height: 100px;
+    padding-top: 30px;
+    margin-left: 40px;
+  }
+  .product-brand {
+    color: darkgray;
+  }
+  .product-short-description {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+    margin-top: 40px;
+    color: blue;
+  }
+  .paragraph-two{
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+    color: blue;
+    
+  }
+  .preco{
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .price {
+    font-size: 20px;
+    padding-top: 60px;
+  }
+  .pre-btn,
+  .nxt-btn {
+    margin-right: 200px;
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }

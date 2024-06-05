@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-image: url("img/imgBackground.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.principal{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    background-color: rgb(191, 208, 218);
+    padding: 6px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 darkgray;
+    margin-right: 10%;
+}
+.container:hover{
+    background-color:rgb(183, 204, 223);
+    font-size: 20px;
+    height: 500px;
+    transition: .7s;
+
+}
+form{
+    position:absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+    font-family: "Quicksand", sans-serif;
+}
+.buttonsForm{
+    margin-top: 40px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 rgb(0, 17, 255);
+    font-family: "Quicksand", sans-serif;
+}
+.buttonsForm button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+}
+.btnColor{
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    background: linear-gradient(to right, #0300be, #0066ffc0);
+    border-radius: 30px;
+    transition: .3s;
+}
+input[type="text"], input[type="password"]{
+    border: none;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 17px;
+}
+button[type="submit"]{
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+    background: linear-gradient(to right, #0300be, #0066ffc0);
+    font-family: "Quicksand", sans-serif;
+    font-size: 17px;
+}
+button[type="submit"]:hover{
+    font-size: 20px;
+    transition: .5s;
+
+}
+.check{
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
+}
+
+#signin{
+    left: 25px;    
+}
+
+#signup{
+    left: 450px;
+}
+
+i{
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+.email{
+    top: 40px;
+}
+.password{
+    top: 114px;
+}
+
