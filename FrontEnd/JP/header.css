@@ -362,7 +362,7 @@
   .horario{
     font-size: 2vh;
     position: relative;
-    bottom: 15%;
+    bottom: 10%;
     width: 80%;
     text-align: left;
     margin-left: 7vh;
@@ -370,7 +370,7 @@
 .numero{
     font-size: 2vh;
     position: relative;
-    bottom: 15%;
+    bottom: 5%;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -380,7 +380,7 @@
 .informacoes{
     font-size: 2vh;
     position: relative;
-    bottom: 15%;
+    bottom: 5%;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -389,7 +389,7 @@
 .endereco{
     font-size: 2vh;
     position: relative;
-    bottom: 20%;
+    bottom: 5%;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -399,8 +399,8 @@
 
 .social-media{
     position: relative;
-    bottom: 25%;
-    right: 10%;
+    bottom: 5%;
+    right: 5%;
 }
 
 ul {
